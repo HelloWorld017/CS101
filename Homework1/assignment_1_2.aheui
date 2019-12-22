@@ -1,0 +1,18 @@
+// ㄱ: x, ㄴ: y, ㄷ: beeper count, ㄹ: image width, ㅁ: image height, ㅂ: temporary, ㅅ: temporary
+
+
+아삭바산바샇발쌀쌈우　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 // Add 0 to ㄱ, ㄴ, Add image width to ㄹ, height to ㅁ
+　우　여　여　여　여　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+아우　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　반투　　　　　　　　　　　　　　　　　　　
+오아삭빠살빠싹삭파튜아아샇바유　　　　　　　　　　　　　　　　바쑿　　볻투　　　　　　　　　　　　　　　　　　　 // Cond1: If X is not equal to image width: Then Move
+　　　　　　　타아아초아삽받반타빠빠빠아쌓샇받야우차아산받반타도삽쌓살뽀쌋삿뺘우차우　삽쌓쌓아아아우　　　　　　 // Cond2: If X is equal to image width: Move to X=0(left, checkclear, ㄴ++ move, left, while move, left, left) ㅅ: iterator ㅂ: 1
+요　　　　　　토번벋아오　　우　　　　　　　　　우　　　　　　　　　　　　　오아야우아오　　　　　우　　　　　　
+　두터번벋석어　여　여　여　여　　　　　　　　　희　　　　　　　　　　　　　오　　삿받반타타바쑿　우　　　　　　 // ㄱ++ (Cond1, cont.) | End if y finished | while move
+요우　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　오어어어어어어어어어　우　　　　　　
+　우어　여　여　여　여　여　여　여　여　여　여　여　여　여　여　여　여　여　여　여　여　여어버머석어　　　　　　 // ㄱ = 0
+요아아샇밤삭빠쌓삼빠산빠쌈삼타받반타타쌓우　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 // call get_pixel_brightness_xy, push ㄱ to ㅎ, push (ㅁ - ㄴ - 1)
+　　　　　　　　　　　　　　　　숟어어썯섷　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 // push get_pixel_brightness_xy() result to the ㄷ storage.
+요　　누어떠벅벓터퍼어떠떠범벓벓어　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 // get beeper count in ㄷ storage
+　　　아뺘우차아샇반삳받박타타우　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 // place beeper and minus 1 in ㄷ storage
+요　　　오우여어어어어어어어어어　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+오어　여　며　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
