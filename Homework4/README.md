@@ -5,7 +5,7 @@
 
 Load and process weather.csv file.
 
-**1. Load `weather.csv` file into a list named `weather_tuples`. The list contains a series of tuples below.**
+**1. Load `weather.csv` file into a list named `weather_tuples`. The list contains a series of tuples below.**  
 a. Use csv library to read and parse CSV format.
 
 b. https://docs.python.org/3/library/csv.html
@@ -13,12 +13,12 @@ b. https://docs.python.org/3/library/csv.html
 
 c. `csv_load_example()` is given to help you!
 
-**2. (Task 4.1.1) Read the nth row (exclude header) of the CSV and print its province and city, and return the result as a tuple.**
+**2. (Task 4.1.1) Read the nth row (exclude header) of the CSV and print its province and city, and return the result as a tuple.**  
 a. Return None if no records are found
 
 b. Tuple format: `Tuple[province_name: str, city_name: str]`
 
-**3. (Task 4.1.2) Print temperatures and rainfall at Daejeon on input date.**
+**3. (Task 4.1.2) Print temperatures and rainfall at Daejeon on input date.**  
 a. Return None if no records are found
 
 b. Input format: year: int month: int day: int
@@ -48,7 +48,7 @@ A city object has its name field and a list of its weather objects.
 \* weather sorted by its date
 
 
-A weather object has its date, description, temperature_max, temperature_min, rainfall, and snowfall fields.
+A weather object has its date, description, temperature_max, temperature_min, rainfall, and snowfall fields.  
 a. You must use the datetime.date class to store the date of each weather.
 
 b. datetime.date​: https://docs.python.org/3/library/datetime.html#date-objects
@@ -77,7 +77,7 @@ Complete the method get_average_temperature(Year, Month)​ in both​Province�
 
 **2. The average temperature should be Celsius and rounded to one decimal place, such as 29.8.**
 
-**3. The monthly average temperature in a province is the arithmetic mean of the monthly average temperature of each city in the province.**
+**3. The monthly average temperature in a province is the arithmetic mean of the monthly average temperature of each city in the province.**  
 Important: The result should be rounded to one decimal place. Also the monthly average temperature of city is also rounded.
 
 **4. The monthly average temperature in a city is the arithmetic mean of daily average temperature in that month. The result should be rounded to one decimal place.**
@@ -86,8 +86,8 @@ Important: The result should be rounded to one decimal place. Also the monthly a
 
 **6. The rounding should be done just before returning the average temperature in each method.**
 
-**7. It should return an error string ‘Please check the year and month.’ if the arguments are out of the scope. (ex, 2017, 8)**
-Hint: Implement get_average_temperature in City class first, and implement Province’s method latter.
+**7. It should return an error string ‘Please check the year and month.’ if the arguments are out of the scope. (ex, 2017, 8)**  
+Hint: Implement get_average_temperature in City class first, and implement Province’s method latter.  
 **Caution** The Elice grader strictly checks your error message such as “Please check the year and month.” even dot(“.”).
 
 ----
