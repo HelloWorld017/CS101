@@ -184,6 +184,7 @@ This function returns a tuple `(is_success, error_code)`
 
 ### Task 3.3
 > Order Validation
+
 Complete the function `validate(order, allergy_info)`. To implement this function, you need to reference both `recipes_info` and `ingredients_info`.
 Note that this function does not modify any states at all and that it does not even check the value of `stock`.
 
