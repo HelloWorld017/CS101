@@ -1,6 +1,8 @@
 # Homework 1
 
-## Hubo the Artist (1-1)
+## Homework 1-1
+> Hubo the Artist
+
 Feeling exhausted after work every day, Hubo decided to learn painting for fun and fulfill after-work life.
 But before learning to paint, Hubo wants to see some good paintings first.
 Help Hubo appreciate some paintings drawn with beepers on the world.
@@ -36,8 +38,11 @@ Write a code that creates a robot on the given world and scan all positions in t
 ### Scoring criteria
 The given world file is successfully converted to an image file in png format. (5 points per test case, 5 test cases, 25 points total)
 
+----
 
-## Hubo the Artist II (1-2)
+## Homework 1-2
+> Hubo the Artist II
+
 Hubo thinks that it’s time to start a hands-on practice for painting.
 Before painting its own masterpiece, Hubo decided to copy one or two famous paintings on the canvas (or the world, in fact).
 Help Hubo draw a world that resembles existing pictures with beepers.
