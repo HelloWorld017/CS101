@@ -32,9 +32,13 @@ class SugarBot(Robot):
             self.drop_beeper()
     
     def move_pick():
-        self.move()
-        self.pick_safe()
+        self.move_safe()
+        self.pick_until()
     
+    def move_pick_until():
+        while self.front_is_clear():
+            self.move_pick()
+        
     def ensure_north(self):
         while not self.facing_north():
             self.turn_left()
