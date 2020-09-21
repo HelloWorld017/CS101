@@ -11,31 +11,31 @@ class SugarBot(Robot):
         while self.front_is_clear():
             self.move()
 
-    def move_safe():
+    def move_safe(self):
         if self.front_is_clear():
             self.move()
     
-    def pick_safe():
+    def pick_safe(self):
         if self.on_beeper():
             self.pick_beeper()
     
-    def pick_until():
+    def pick_until(self):
         while self.on_beeper():
             self.pick_beeper()
     
-    def drop_safe():
+    def drop_safe(self):
         if self.carries_beepers():
             self.drop_beeper()
     
-    def drop_until():
+    def drop_until(self):
         while self.carries_beepers():
             self.drop_beeper()
     
-    def move_pick():
+    def move_pick(self):
         self.move_safe()
         self.pick_until()
     
-    def move_pick_until():
+    def move_pick_until(self):
         while self.front_is_clear():
             self.move_pick()
         
